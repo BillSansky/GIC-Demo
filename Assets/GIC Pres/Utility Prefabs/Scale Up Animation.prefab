@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4717533236085154716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6200465571596723387}
+  - component: {fileID: 4314215416221315739}
+  - component: {fileID: 4506377299367394233}
+  - component: {fileID: 566292576435702205}
+  m_Layer: 0
+  m_Name: Scale Up Animation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6200465571596723387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4717533236085154716}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4314215416221315739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4717533236085154716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c3a67c1d3d4d88a6c3c6fc90ac4e11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Note: "To make it work:\n-Make the gameobject inactive by default, \n-Set the object
+    active when you want the animation to start\n-Change the Tween animation target "
+  ShowAllTheTime: 0
+  ShowOnScene: 1
+--- !u!114 &4506377299367394233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4717533236085154716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22cc0cb57614612ab358ba138c934d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CreateTweenOnAwake: 1
+  EaseOverShootValue: 0
+  EasingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.040160637
+      outSlope: 0.040160637
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.2553714
+    - serializedVersion: 3
+      time: 0.5000259
+      value: 1.0022309
+      inSlope: 0.039249443
+      outSlope: 0.039249443
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0015259
+      value: 0.0034179688
+      inSlope: -0.000008747138
+      outSlope: -0.000008747138
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.19017354
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  EasingMode: 0
+  EndValue:
+    LocalValue: {x: 1.5, y: 1.5, z: 1.5}
+    UseReference: 0
+    Reference: {fileID: 0}
+  ExtraLoopAmount: 0
+  ForceRebuildOfTween: 1
+  IsRelativeToFrom: 0
+  onEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4717533236085154716}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPause:
+    m_PersistentCalls:
+      m_Calls: []
+  onPlay:
+    m_PersistentCalls:
+      m_Calls: []
+  PlayOnEnable: 1
+  SpeedBasedMode: 0
+  StartDelay: 0
+  StartValue: {x: 1, y: 1, z: 1}
+  StaticInitialValue: 1
+  TweenDuration:
+    LocalValue: 0.5
+    UseReference: 0
+    Reference: {fileID: 0}
+  TweenTarget: 1
+  UpdateType: 0
+  ValueGetter:
+    Target: {fileID: 6200465571596723387}
+    TargetFunction:
+      ActionName: get_localScale
+      TargetObject: {fileID: 6200465571596723387}
+  ValueSetter:
+    Target: {fileID: 6200465571596723387}
+    TargetAction:
+      ActionName: set_localScale
+      TargetObject: {fileID: 6200465571596723387}
+--- !u!114 &566292576435702205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4717533236085154716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8dd689821b74b83b171a27075e0fe47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEnabled:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4506377299367394233}
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

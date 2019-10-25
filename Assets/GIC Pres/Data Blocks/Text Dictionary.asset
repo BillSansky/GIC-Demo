@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6068a351f80d24cbb32db525beae33, type: 3}
+  m_Name: Text Dictionary
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: DataByID
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[StringData,
+        Assembly-CSharp-firstpass]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|StringData, Assembly-CSharp-firstpass
+    - Name: dictionaryID
+      Entry: 3
+      Data: 0
+    - Name: id
+      Entry: 1
+      Data: This
+    - Name: field
+      Entry: 1
+      Data: This
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 3|StringData, Assembly-CSharp-firstpass
+    - Name: dictionaryID
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: Is
+    - Name: field
+      Entry: 1
+      Data: Is
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 4|StringData, Assembly-CSharp-firstpass
+    - Name: dictionaryID
+      Entry: 3
+      Data: 2
+    - Name: id
+      Entry: 1
+      Data: Awesome
+    - Name: field
+      Entry: 1
+      Data: Awesome
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MasterKeys
+      Entry: 6
+      Data: 
+    - Name: ParentDictionary
+      Entry: 6
+      Data: 
+  IsMasterDictionary: 1
+  OnDataAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  LogDebug: 0

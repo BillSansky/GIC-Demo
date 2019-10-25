@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/LWRP Tuto/Scenes/SampleScene.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/0 - Game Content/Systems/Input/Input Scene.unity
+    guid: bb22ac4cb77dbe24d9bb2d0bfe279000
+  - enabled: 1
+    path: Assets/0 - Game Content/Systems/Camera/Camera Scene.unity
+    guid: a13619d9b73d96a49b4027cf09c21f8f
+  - enabled: 1
+    path: Assets/0 - Game Content/Systems/Time/Time Scene.unity
+    guid: 70ec7ebbaade6c04ba0a9f595b279d9b
+  - enabled: 1
+    path: Assets/0 - Game Content/Systems/Plumbing System/Spawning Scene.unity
+    guid: 2ed6cbf706ee96947adfd075316aa6f1
+  - enabled: 1
+    path: Assets/0 - Game Content/Systems/Load And Save/Save Scene.unity
+    guid: 89b4119990e6b2b4d9e2a3d2ccf5b336
+  - enabled: 1
+    path: Assets/0 - Game Content/General/Gameplay Loading Scene.unity
+    guid: 64d825cf6788bf840883d7ff014a1411
+  - enabled: 1
+    path: Assets/0 - Game Content/Rooms/Antique Room.unity
+    guid: 7f99986c07dd9eb4a89177f966b239e8
+  m_configObjects: {}
